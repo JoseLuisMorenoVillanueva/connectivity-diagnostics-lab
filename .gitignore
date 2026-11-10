@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lab secrets, private captures and generated reports
+.env.*
+!.env.example
+secrets/
+private-data/
+reports/
+*.pcap
+*.pcapng
+*.dlt
